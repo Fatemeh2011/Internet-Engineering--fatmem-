@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="js/bootstrap.bundle.min.js" rel="stylesheet">
+    <title>Site1</title>
+
+</head>
+<body>
+   <div class="navbar navbar-expand-md" style="background-color: #e3f2fd;" >
+       <div class="container mb-3">
+           <a href="" class="navbar-brand">
+               <img src="img/logo.png" width="50px" height="50px" alt="">
+               <h3 class="d-inline align-middle"></h3>
+
+           </a>
+           <button class="navbar-toggler" data-toggle="collapse" data-toggle="#navbarMenhaj">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <div id="navbarMenhaj" class="collapse navbar-collapse">
+               <ul class="navbar-nav">
+                   <li class="nav-item">
+                       <a href="" class="nav-link">صفحه اصلی</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="" class="nav-link">درباره ما</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="" class="nav-link">تماس با ما</a>
+                   </li>
+                   <li class="nav-item">
+                       <a href="" class="nav-link">نظرات</a>
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <div id="carouselExampleFade" class="carousel slide carousel-fade">
+       <div class="carousel-inner">
+           <div class="carousel-item active">
+               <img src="img/12.jpeg" class="d-block w-100" alt="..." style="height: 580px">
+           </div>
+           <div class="carousel-item">
+               <img src="img/13.jpeg" class="d-block w-100" alt="..." style="height: 580px">
+           </div>
+           <div class="carousel-item">
+               <img src="img/14.jpeg" class="d-block w-100" alt="..." style="height: 580px">
+           </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+       </button>
+   </div>
+<section class="bg-light text-white py-5" style="direction: rtl;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="نام را وارد کنید">
+            </div>
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="ایمیل را وارد کنید">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary btn-block">عضویت</button>
+            </div>
+        </div>
+    </div>
+</section>
+   <div class="container">
+<div class="row py-5" >
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="img/15.png" class="card-img-top" alt="..." style="height: 400px">
+            <div class="card-body">
+                <h5 class="card-title">شوکوورمیشل</h5>
+<p>   </p>
+                <a href="#" class="btn btn-primary">سفارش</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="img/16.png" class="card-img-top" alt="..." style="height: 400px">
+            <div class="card-body">
+                <h5 class="card-title">وانیل ژله ای</h5>
+<p>
+
+</p>
+                <a href="#" class="btn btn-primary">سفارش</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img src="img/17.png" class="card-img-top" alt="..." style="height: 400px">
+            <div class="card-body">
+                <h5 class="card-title">شکلاتی دو رنگ</h5>
+                <p >
+                </p>
+                <a href="#" class="btn btn-primary">سفارش</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+   <div class="container">
+       <div class="row py-5" >
+           <div class="col-md-4">
+               <div class="card" style="width: 18rem;">
+                   <img src="img/20.jpg" class="card-img-top" alt="..." style="height: 400px">
+                   <div class="card-body">
+                       <h5 class="card-title">انار</h5>
+                       <p>   </p>
+                       <a href="#" class="btn btn-primary">سفارش</a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card" style="width: 18rem;">
+                   <img src="img/19.png" class="card-img-top" alt="..." style="height: 400px">
+                   <div class="card-body">
+                       <h5 class="card-title">مارشمالو گردو</h5>
+                       <p>
+
+                       </p>
+                       <a href="#" class="btn btn-primary">سفارش</a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-md-4">
+               <div class="card" style="width: 18rem;">
+                   <img src="img/18.png" class="card-img-top" alt="..." style="height: 400px">
+                   <div class="card-body">
+                       <h5 class="card-title">وانیل طالبی</h5>
+                       <p >
+                       </p>
+                       <a href="#" class="btn btn-primary">سفارش</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+<div class="row bg-dark">
+    <div class="col-md-6">
+        <p class="text-white">    بستنی شاد     </p>
+
+        <p class="text-white">   مدت زمان تحویل: حدود 30 دقیقه بعد از تکمیل پرداخت</p>
+
+       <p class="text-white" >  ساعت کار فروش آنلاین: 7 روز هفته ســــاعت 16:00 تا 2</p>
+
+    <p class="text-white" ارسال رایگان در محدوده: در خریدهای بیشتر از 100 هزار تومان
+        </p>
+
+    </div>
+    <div class="col-md-6">
+        <div class="h4 text-white"> تـماس با ما</div>
+        <div class="mb-4">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    ۰۲۱-۷۲۵۶۱</li>
+                <li class="list-group-item">تهران، چهار راه سبلان، خیابان مدنی جنوبی، خیابان شهید رضا رجبی، پلاک ۱۲۴
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

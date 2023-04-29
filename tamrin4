@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.rtl.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+<p id="p1" class="text-danger"> hello how are you</p>
+<p id="p2" class="text-dark">   hello how are you</p>
+    <button  onclick="event1('m')"  class="btn  btn-info">click1</button>
+    <button  onclick="event2('n')" class="btn   btn-warning">click2</button>
+
+</div>
+
+
+<script>
+
+    let text="hello world! hello w3schols!";
+    let resultt=console.log(text.match(/ello*/g))
+    let resultt=console.log(text.match(/[ello]*/g));
+
+    function event1(m){
+
+        if(resultt)
+        {
+            document.getElementById("p1").innerHTML=resultt;
+        }
+        else
+        {
+            document.getElementById("p1").innerHTML="false";
+        }
+
+    }
+
+    function event2(n){
+        if(resultt)
+        {
+            document.getElementById("p2").innerHTML=resultt;
+        }
+        else
+        {
+            document.getElementById("p2").innerHTML="false";
+        }
+    }
+
+</script>
+
+</body>
+</html>
